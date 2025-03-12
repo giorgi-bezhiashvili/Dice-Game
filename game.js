@@ -27,7 +27,7 @@ document.addEventListener("DOMContentLoaded", function () {
         let rScore = 0
         let rScore2 = 0
         let isPlaying = 0
-        const WINNING_SCORE = 100
+        const WINNING_SCORE = 60
 
         function rollDice(playerIndex) {
             if (playerIndex !== isPlaying || imgDiceElems[playerIndex].classList.contains("rolling")) return
