@@ -16,6 +16,7 @@ document.addEventListener("DOMContentLoaded", function () {
         setNameElem.addEventListener("click" , function(){
             let name1value = name1.value
             nameElem.innerText = name1value
+            name1.value = ""
         })
         setNameElem2.addEventListener("click" , function(){
             let name2value = name2.value
