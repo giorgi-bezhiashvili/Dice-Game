@@ -11,6 +11,12 @@
 body{
     background-color: cadetblue;
 }
+input{
+    margin: 10px;
+}
+.nameh31,.nameh32{
+    margin: 10px;
+}
 .player1,.player2{
     height: 550px;
     width: calc(50% - 40px);
